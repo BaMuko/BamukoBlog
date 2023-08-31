@@ -9,15 +9,15 @@
  */
 module.exports = {
     siteMetadata: {
-        title: `Robin on the way`,
+        title: `Bamuko`,
         author: {
-            name: `Robin Till`,
-            summary: `who walks on the way to anywhere it leads. No question asked.`,
+            name: `Barbora Musilová`,
+            summary: `kočička.`,
         },
-        description: `who walks on the way to anywhere it leads. No question asked.`,
-        siteUrl: `https://robinontheway.com/`,
+        description: `kočička.`,
+        siteUrl: `https://bamuko.dev/`,
         social: {
-            github: `Snory`,
+            github: `BaMuko`,
         },
     },
     plugins: [
@@ -115,7 +115,7 @@ module.exports = {
               }
             }`,
                         output: "/rss.xml",
-                        title: "Robin on the way RSS Feed",
+                        title: "Bamuko RSS Feed",
                     },
                 ],
             },
@@ -123,7 +123,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Robin on the way`,
+                name: `Bamuko`,
                 short_name: `RobinOnTheWay`,
                 start_url: `/`,
                 background_color: `#ffffff`,
